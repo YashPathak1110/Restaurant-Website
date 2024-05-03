@@ -1,0 +1,21 @@
+.contact_section{
+    background: url("https://www.shutterstock.com/image-photo/abstract-city-building-skyline-metropolitan-600nw-1622580361.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contact_section h4{
+    font-size: 2.375rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.contact_section h2{
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+}
+.contact_section p{
+    width: 70%;
+    margin: 0 auto 30px;
+}

@@ -1,0 +1,47 @@
+.btn {
+    width: 250px;
+    height: 50px;
+   
+}
+.about_section{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background: url("C:\Users\Admin.DESKTOP-K17RUOF\Desktop\React.JS Revision\React.JS Revision\restourent-website\src\Images\3burger.png")no-repeat center center;
+    background-size: initial;
+    width: 100%;
+    height: 100px;
+}
+.about_section h2{
+    font-size: 3.5rem;
+}
+
+.about_section p{
+    color: var(--grey);
+    font-size: 19px;
+}
+.about_wrapper{
+    background: rgba(235, 193, 5, 0.224);
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.about_box .about_icon img{
+    max-width: 85%;
+}
+.about_box h4{
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5008px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about_box p{
+        padding: 0 20px;
+}
+@media (max-width: 992px){
+    .about_section h2{
+        font-size: 2.5rem;
+    }
+    .about_section p{
+        padding: 20px 0;
+    }
+}

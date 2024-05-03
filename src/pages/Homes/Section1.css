@@ -1,0 +1,60 @@
+.btn btn-outline-warning{
+    color: "yellow"; 
+}
+.hero_section .price_badge{
+    background: url("C:\Users\Admin.DESKTOP-K17RUOF\Desktop\React.JS Revision\React.JS Revision\restourent-website\src\Images\blank-gold-round-promotional-sticker-vector-2512077-removebg-preview.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 5rem;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+}
+.badge_text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hero_section .badge_text .h3_lg{
+    font-size: 2.800rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.hero_section .hero_text h1{
+    font-family: var(--lilita-font);
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_text h2{
+    font-family: var(--lilita-font);
+    font-size: 2.6rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_text{
+    padding: 0 5%;
+}
+p{
+    font-size: 19px;
+    font-weight: 500;
+}
+.btn{
+    text-align: center;
+    width: 150px;
+    height: 45px;    
+}
+
+
+/* media query */
+@media (max-width: 767px){
+    .hero_section .hero_text h1{
+        font-size: 5.5rem;
+    }
+}

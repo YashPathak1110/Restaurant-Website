@@ -1,0 +1,29 @@
+.promotion_section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgba(128, 128, 128, 0.324);
+}
+.promotion_section h2{
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+}
+.promotion_section p{
+    font-size: 1.125rem;
+}
+.promotion_section ul{
+    padding-left: 20px;
+}
+
+/* Section 4 parallex bg image */
+.bg_parrallex_scroll{
+        background: url("https://img.freepik.com/free-photo/cheerful-young-people-celebrating-friendship_23-2148270946.jpg?t=st=1714467569~exp=1714471169~hmac=d519c115c469d4ed0038a6a48cd805fd0bbf1f1232eb560e0b7beb8627390de4&w=1380") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 970px; 
+}
+@media (max-width: 1200px){
+    .promotion_section h2{
+        font-size: 2.25rem;
+    }
+}

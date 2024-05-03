@@ -1,0 +1,94 @@
+.menu_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.menu_section .card-img-top{
+    transition: all 500ms ease-in-out;
+}
+
+.menu_section h2{
+    font-size: 3.5rem;
+    color: var(--light-red);
+}
+.menu_section .para{
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 20px;
+}
+.menu_section .item_rating i{
+    color: var(--yellow);
+    padding-right: 5px;
+}
+.menu_section .wishlist{
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu_section .wishlist:hover{
+    color: red;
+}
+.menu_section .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.menu_section .card-text{
+    color: var(--black);
+    font-size: 19px;
+    opacity: 0.8;
+}
+.menu_section .menu_price{
+    background-color: rgba(58, 14, 14, 0.743);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 4px 
+    rgb(33, 33, 33);
+    width: 80px;
+    text-align: center;
+
+}   
+.menu_section .menu_price h5{
+    color: var(--yellow);
+    font-size: 1.1rem;
+}
+.menu_section .add_to_card a{
+    background: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    transform: translateY(100px);
+    transition: all 670ms ease-in-out;
+}
+
+.menu_section .card:hover .card-img-top{
+    transform: scale(1.2);
+}
+.menu_section .card:hover .add_to_card a{
+    transform: translateY(0px);
+}
+.menu_section .ads_box{
+    text-align: right;
+    padding: 80px 35px 50px;
+    border-radius: 6px;
+    color: var(--white);
+    
+  
+}
+.menu_section .ads_img1{
+    background: url("https://img.freepik.com/free-photo/top-view-delicious-fries-with-copy-space_23-2150857942.jpg" ) no-repeat center center;
+}
+.menu_section .ads_img2{
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210912/pngtree-fried-chicken-fries-photography-map-image_873422.jpg") no-repeat center center;
+    background-size: cover;
+}
+@media (max-width){
+    .menu_section .para{
+        padding: 10px 0px;
+    }
+}

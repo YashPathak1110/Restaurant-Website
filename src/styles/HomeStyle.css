@@ -1,0 +1,11 @@
+/* hero section */
+
+.hero_section {
+    position: relative;
+    background: url("https://img.freepik.com/premium-photo/wood-texture-background-wooden-grunge-old-texture-wallpaper-backdrop-product-display_741309-602.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
