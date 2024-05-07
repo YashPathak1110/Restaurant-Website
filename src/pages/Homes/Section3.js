@@ -85,9 +85,9 @@ function Section3() {
     <section className='menu_section'>
         <Container>
             <Row style={{marginTop: "27rem"}} >
-                <Col lg={{ span: 8, offset: 2}} className='text-center mb-5 background'  >
-                    <h2>OUR CRAZY BURGER</h2>
-                    <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, reiciendis? Veniam eius aliquid tempore natus voluptate deleniti ex harum consectetur.</p>
+                <Col lg={{ span: 8, offset: 2}} className='text-center mb-5 background-1'  >
+                    <h2 style={{textShadow : "2px 2px 2px white"}}>OUR CRAZY BURGER</h2>
+                    <p className='para' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, reiciendis? Veniam eius aliquid tempore natus voluptate deleniti ex harum consectetur.</p>
                 </Col>
             </Row>
             <Row >

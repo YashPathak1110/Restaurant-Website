@@ -1,8 +1,18 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { useCart } from './CartContext';
+import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate
 
-function Cards({ image, ratting, title, paragraph, price }) {
+
+
+function Cards({ image, title, paragraph, price }) {
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    const item = { image, title, price };
+    addToCart(item);
+  };
+
   return (
     <Col sm={6} lg={4} xl={3} className="mb-4">
       <Card className="overflow-hidden">
@@ -25,10 +35,7 @@ function Cards({ image, ratting, title, paragraph, price }) {
               <h5 className="mb-0">${price}</h5>
             </div>
             <div className="add_to_card">
-              <Link to="/">
-                <i class="bi bi-bag me-2"></i>
-                Add To Cart
-              </Link>
+              <button onClick={handleAddToCart} className="btn btn-outline-dark" style={{width: "130px"}}>Add to Cart</button>
             </div>
           </div>
         </Card.Body>

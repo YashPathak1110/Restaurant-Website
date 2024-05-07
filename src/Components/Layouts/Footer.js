@@ -23,6 +23,7 @@ function Footer() {
   useEffect(()=>{
     window.addEventListener("scroll", listenToScroll);
   });
+  
   return (
     <>
     <footer>

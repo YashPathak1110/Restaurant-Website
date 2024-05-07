@@ -6,12 +6,16 @@ import "./Section3.css";
 import "./Section6.css";
 function Shop() {
   return (
+    <>    
+    
     <Layout>    
     {/* Home Section Menu */}
     <Section3/>
     {/* Home Section Blog */}
     <Section6/>
     </Layout>
+    </>
+
   )
 }
 

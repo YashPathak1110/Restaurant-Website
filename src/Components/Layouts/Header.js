@@ -40,10 +40,10 @@ const Header = () => {
             <Nav.Link as={Link} to="/shop" style={{color: "black"}}><b>Shop</b></Nav.Link> 
             <Nav.Link as={Link} to="/blog" style={{color: "black"}}><b>Blog</b></Nav.Link> 
             <Nav.Link as={Link} to="/contact" style={{color: "black"}}><b>Contact</b></Nav.Link> 
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/cart">
                 <div className='cart'>
                 <b><i class="bi bi-cart4 fs-5" ></i></b>
-                <em className='roundpoint'>2</em>
+                <em className='roundpoint'></em>
                 </div>
             </Nav.Link> 
           </Nav>

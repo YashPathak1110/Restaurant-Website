@@ -49,7 +49,7 @@ function Section1() {
                             <h1 className='text-white'> Burger King </h1><br></br>
                             <h2 className='text-white'>With Onion</h2>
                             <p className='text-white'>Lorem ipsum dolor, sit amet  adipisicing elit. Quos obcaecati debitis fugiat aut sapiente modi, minus exercitationem dolor aperiam dolores iste excepturi tempore, id sed nemo magni doloribus? provident.</p><br></br>
-                            <Link to='/' className='btn btn-warning' >
+                            <Link to='/shop' className='btn btn-warning' >
                                 <b><p style={{fontFamily: "inherit", fontWeight: "700"}}>Order now</p></b>
                             </Link>
                         </div>

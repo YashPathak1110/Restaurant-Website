@@ -37,11 +37,23 @@
 .about_box p{
         padding: 0 20px;
 }
-@media (max-width: 992px){
-    .about_section h2{
-        font-size: 2.5rem;
+@media (max-width: 767px) {
+    .btn {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
     }
-    .about_section p{
-        padding: 20px 0;
+
+    .about_section {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+
+    .about_box h4 {
+        font-size: 22px;
+    }
+
+    .about_box p {
+        font-size: 16px;
     }
 }
