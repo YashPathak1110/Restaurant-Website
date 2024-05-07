@@ -6,15 +6,14 @@ export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (item) => {
-    // Check if the item already exists in the cart
     const existingItemIndex = cartItems.findIndex((cartItem) => cartItem.title === item.title);
+   
     if (existingItemIndex !== -1) {
-      // If item already exists, increase its quantity
       const updatedCartItems = [...cartItems];
       updatedCartItems[existingItemIndex].quantity += 1;
       setCartItems(updatedCartItems);
     } else {
-      // If item is new, add it to the cart with quantity 1
+
       setCartItems([...cartItems, { ...item, quantity: 1 }]);
     }
   };
@@ -31,9 +30,14 @@ export const CartProvider = ({ children }) => {
     updatedCartItems[index].quantity += 1;
     setCartItems(updatedCartItems);
   };
+  const decreaseQuantity = (index) => {
+    const decreaseCartItems = [...cartItems];
+    decreaseCartItems[index].quantity -= 1;
+    setCartItems(decreaseCartItems);
+  }
 
   return (
-    <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, increaseQuantity }}>
+    <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, increaseQuantity, decreaseQuantity }}>
       {children}
     </CartContext.Provider>
   );
